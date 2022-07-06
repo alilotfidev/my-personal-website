@@ -1,0 +1,8 @@
+.Main{
+    max-width: 70vw;
+    padding: 32px;
+    grid-row: 2/5;
+}
+.Main h2{
+    font-size: 3rem;
+}

@@ -1,0 +1,11 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 32px;
+    font-size: 1.3rem;
+    font-weight: 700;   
+}
+.Navbar .blog a{
+    text-decoration: none;
+}
