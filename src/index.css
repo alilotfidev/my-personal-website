@@ -23,3 +23,14 @@ a{
 b{
   font-weight: bold;
 }
+
+@media screen and (max-width: 515px){
+  body{
+    overflow-y: auto;
+  }
+}
+@media screen and (max-width: 400px){
+  .App{
+    display: block;
+  }
+}

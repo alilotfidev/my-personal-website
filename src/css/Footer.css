@@ -18,3 +18,11 @@
 .Footer .link{
     margin: 0 1rem;
 }
+@media screen and (max-width: 400px){
+    .Footer .links{
+        flex-direction: column;
+    }
+    .Footer .link{
+        margin: 8px;
+    }
+}

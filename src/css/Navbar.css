@@ -9,3 +9,8 @@
 .Navbar .blog a{
     text-decoration: none;
 }
+@media screen and (max-width: 515px){
+    .Navbar{
+        padding: 1em;
+    }
+}
