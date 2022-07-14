@@ -10,7 +10,7 @@ function Main() {
         a child, I have been very interested in computers. When I wanted to
         start a career, I thought, what better job than what I'm passionate
         about? This is how I decided to learn web development and now I am a
-        front-end developer. If you would like to work with me,{' '}
+        junior front-end developer. If you would like to work with me,{' '}
         <b>
           <a href='mailto:lotfi26.ali@gmail.com'>drop me an email</a>
         </b>
