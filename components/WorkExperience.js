@@ -11,7 +11,7 @@ export default function WorkExperience() {
     },
     {
       role: "Junior Front-end Developer",
-      company: "Fateme Mohiti",
+      company: "Freelance Project",
       companyLink: "https://fatememohiti.ir",
       time: "2023 - 2023",
       technologies: ["JS", "Next", "React", "TailwindCSS", "Netlify"],
