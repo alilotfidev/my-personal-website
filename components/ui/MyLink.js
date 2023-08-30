@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function MyLink({ href, children }) {
   return (
     <Link className="items-center" href={href}>
-      <div className="inline hover:underline">{children}</div>
+      <span className="hover:underline">{children}</span>
       <Image
         className="ml-1 inline"
         src="/images/arrow-link.svg"

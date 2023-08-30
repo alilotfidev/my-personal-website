@@ -9,11 +9,11 @@ export default function PortfolioList() {
         {PortfolioData.map((item) => (
           <div className="portfolio-item flex flex-col gap-y-1 text-sm">
             <h4 className="text-base opacity-95">{item.name}</h4>
-            <p className="secondary-text flex gap-4">
+            <div className="secondary-text flex gap-4">
               {item.technologies.map((technologie) => (
                 <p>{technologie}</p>
               ))}
-            </p>
+            </div>
             <div className="links secondary-text flex gap-2">
               {item.github && <MyLink href={item.github}>Github</MyLink>}
               {item.link && <MyLink href={item.link}>Link</MyLink>}
