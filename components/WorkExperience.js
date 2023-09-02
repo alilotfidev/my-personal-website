@@ -22,8 +22,11 @@ export default function WorkExperience() {
     <div className="WorkExperience">
       <h3>Work Experience</h3>
       <div className="experiences">
-        {experiences.map((item) => (
-          <div className="mt-6 flex flex-col gap-y-2 text-sm sm:grid sm:grid-cols-4">
+        {experiences.map((item, index) => (
+          <div
+            className="mt-6 flex flex-col gap-y-2 text-sm sm:grid sm:grid-cols-4"
+            key={index}
+          >
             <div className="year secondary-text">{item.time}</div>
             <div className="col-span-3">
               <h4 className="text-base">
