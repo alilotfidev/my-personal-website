@@ -7,7 +7,14 @@ export default function WorkExperience() {
       company: "Astroshot Media",
       companyLink: "https://astroshotmedia.vercel.app",
       time: "2023 - present",
-      technologies: ["JS", "Next", "React", "TailwindCSS", "Contentful"],
+      technologies: [
+        "JS",
+        "Next",
+        "React",
+        "GraphQL",
+        "TailwindCSS",
+        "Contentful",
+      ],
     },
     {
       role: "Junior Front-end Developer",
