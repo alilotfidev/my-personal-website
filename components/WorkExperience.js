@@ -5,7 +5,7 @@ export default function WorkExperience() {
     {
       role: "Junior Front-end Developer",
       company: "Astroshot Media",
-      companyLink: "https://astroshotmedia.com",
+      companyLink: "https://astroshotmedia.vercel.app",
       time: "2023 - present",
       technologies: ["JS", "Next", "React", "TailwindCSS", "Contentful"],
     },
