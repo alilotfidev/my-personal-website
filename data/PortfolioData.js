@@ -2,7 +2,7 @@ const PortfolioData = [
   {
     id: "1",
     name: "My Website",
-    technologies: ["React.js", "Tailwind CSS"],
+    technologies: ["Next.js", "Tailwind CSS"],
     link: "https://alilotfi.vercel.app/",
     github: "https://github.com/alilotfidev/my-personal-website",
   },
