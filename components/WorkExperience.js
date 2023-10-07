@@ -16,13 +16,6 @@ export default function WorkExperience() {
         "Contentful",
       ],
     },
-    {
-      role: "Junior Front-end Developer",
-      company: "Freelance Project",
-      companyLink: "https://fatememohiti.ir",
-      time: "2023 - 2023",
-      technologies: ["JS", "Next", "React", "TailwindCSS", "Netlify"],
-    },
   ];
 
   return (
