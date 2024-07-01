@@ -3,7 +3,7 @@ const PortfolioData = [
     id: "1",
     name: "Portfolio Website (Freelance)",
     technologies: ["Next.js", "TailwindCSS", "Netlify"],
-    link: "https://fatememohiti.ir",
+    link: "https://fatememohiti-qoolche.netlify.app/",
   },
   {
     id: "2",
