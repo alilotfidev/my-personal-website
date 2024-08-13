@@ -7,17 +7,17 @@ const PortfolioData = [
   },
   {
     id: "2",
+    name: "E-coomerce Website",
+    technologies: ["Next.js", "Stripe", "Contentful"],
+    link: "https://online-shop-two-murex.vercel.app/",
+    github: "https://github.com/alilotfidev/online-shop",
+  },
+  {
+    id: "3",
     name: "My Website",
     technologies: ["Next.js", "Tailwind CSS"],
     link: "https://alilotfi.vercel.app/",
     github: "https://github.com/alilotfidev/my-personal-website",
-  },
-  {
-    id: "3",
-    name: "E-coomerce Website",
-    technologies: ["React.js", "Commerce.js API"],
-    link: "https://unique-daifuku-8d1362.netlify.app/",
-    github: "https://github.com/alilotfidev/bike-shop",
   },
   {
     id: "4",

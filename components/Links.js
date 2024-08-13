@@ -17,6 +17,11 @@ export default function Links() {
       username: "@alilotfidev",
     },
     {
+      label: "Instagram",
+      href: "https://Instagram.com/alilotfi.dev",
+      username: "@alilotfi.dev",
+    },
+    {
       label: "Email",
       href: "mailto:lotfi26.ali@gmail.com",
       username: "drop me an email",
