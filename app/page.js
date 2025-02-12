@@ -6,7 +6,7 @@ import WorkExperience from "@/components/WorkExperience";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col gap-y-14 p-8 md:max-w-[80vw] md:p-16 lg:max-w-[70vw] lg:p-24 xl:max-w-[45vw]">
+    <main className="flex min-h-screen flex-col gap-y-14 p-8 md:max-w-[80vw] md:p-16 lg:max-w-[70vw] lg:p-24 xl:max-w-[60vw]">
       <Profile />
       <Info />
       <WorkExperience />

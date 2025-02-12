@@ -5,8 +5,9 @@ export default function WorkExperience() {
     {
       role: "Junior Front-end Developer",
       company: "Astroshot Media",
-      companyLink: "https://astroshotmedia.vercel.app",
+      companyLink: "https://astroshotmedia1.com/work",
       time: "May 2024 - Jan 2025 ",
+      location: "Kuwait (Remote)",
       technologies: [
         "JS",
         "Next",
@@ -27,7 +28,15 @@ export default function WorkExperience() {
             className="mt-6 flex flex-col gap-y-2 text-sm sm:grid sm:grid-cols-4"
             key={index}
           >
-            <div className="year secondary-text">{item.time}</div>
+            <div>
+              <div className="year secondary-text text-balance">
+                {item.time}
+              </div>
+              <div className="location secondary-text text-balance mt-2">
+                {item.location}
+              </div>
+            </div>
+
             <div className="col-span-3">
               <h4 className="text-base">
                 <MyLink href={item.companyLink}>
