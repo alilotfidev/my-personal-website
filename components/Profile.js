@@ -10,7 +10,7 @@ export default function Profile() {
         alt="Ali Lotfi"
         width={82}
         height={82}
-        placeholder="blur"
+        placeholder="blur-sm"
       />
       <div className="profile-info flex flex-col">
         <h1 className="text-2xl font-semibold">Ali Lotfi</h1>
