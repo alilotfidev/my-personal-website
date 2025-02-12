@@ -31,8 +31,8 @@ export default function Links() {
     <div className="Links">
       <h3>Links</h3>
       <div className="mt-6 flex flex-col gap-4">
-        {links.map((link) => (
-          <div className="link flex justify-between text-sm">
+        {links.map((link, index) => (
+          <div className="link flex justify-between text-sm" key={index}>
             <p className="link-title secondary-text">{link.label}</p>
             <MyLink href={link.href}>{link.username}</MyLink>
           </div>

@@ -6,12 +6,15 @@ export default function PortfolioList() {
     <div className="PortfolioList">
       <h3>Projects that I've worked on</h3>
       <div className="portfolio-items mt-6 flex flex-col gap-y-4">
-        {PortfolioData.map((item) => (
-          <div className="portfolio-item flex flex-col gap-y-1 text-sm">
+        {PortfolioData.map((item, index) => (
+          <div
+            className="portfolio-item flex flex-col gap-y-1 text-sm"
+            key={index}
+          >
             <h4 className="text-base opacity-95">{item.name}</h4>
             <div className="secondary-text flex gap-4">
-              {item.technologies.map((technologie) => (
-                <p>{technologie}</p>
+              {item.technologies.map((technologie, index) => (
+                <p key={index}>{technologie}</p>
               ))}
             </div>
             <div className="links secondary-text flex gap-2">
