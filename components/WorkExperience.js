@@ -17,6 +17,20 @@ export default function WorkExperience() {
         "Contentful",
       ],
     },
+ {
+      role: "Front-end Developer",
+      company: "Wallaxy Studio",
+      companyLink: "https://wallaxy.com",
+      time: "Mar 2025 - Present",
+      location: "Dallas - Texas (Remote)",
+      technologies: [
+        "JS",
+        "Next",
+        "React",
+        "GraphQL",
+        "TailwindCSS",
+      ],
+    },
   ];
 
   return (
