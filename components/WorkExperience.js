@@ -3,6 +3,20 @@ import MyLink from "./ui/MyLink";
 export default function WorkExperience() {
   const experiences = [
     {
+      role: "Front-end Developer",
+      company: "Wallaxy Studio",
+      companyLink: "https://wallaxy.com",
+      time: "Mar 2025 - Present",
+      location: "Dallas - Texas (Remote)",
+      technologies: [
+        "JS",
+        "Next",
+        "React",
+        "GraphQL",
+        "TailwindCSS",
+      ],
+    },
+    {
       role: "Junior Front-end Developer",
       company: "Astroshot Media",
       companyLink: "https://astroshotmedia1.com/work",
@@ -15,20 +29,6 @@ export default function WorkExperience() {
         "GraphQL",
         "TailwindCSS",
         "Contentful",
-      ],
-    },
- {
-      role: "Front-end Developer",
-      company: "Wallaxy Studio",
-      companyLink: "https://wallaxy.com",
-      time: "Mar 2025 - Present",
-      location: "Dallas - Texas (Remote)",
-      technologies: [
-        "JS",
-        "Next",
-        "React",
-        "GraphQL",
-        "TailwindCSS",
       ],
     },
   ];
